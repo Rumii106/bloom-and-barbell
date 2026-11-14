@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bloom &amp; Barbell | Cozy Gym &amp; Wellness</title>
+<!-- version 8 --><title>Bloom &amp; Barbell | Cozy Gym &amp; Wellness</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
 <style>
@@ -185,49 +185,14 @@
   .prog p{margin:0;line-height:1.5}
   .tape{left:auto;right:8px;bottom:6px}
 
-  /* ---- v3: bigger section headings ---- */
-  .eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:17px;letter-spacing:4px;font-weight:700;color:var(--clay)}
-  .eyebrow::before,.eyebrow::after{content:"";width:34px;height:2px;background:var(--clay);opacity:.5;border-radius:2px}
-  .head h2{font-size:clamp(40px,6vw,64px);margin-top:14px}
-  .head{margin-bottom:50px}
-  @media(max-width:600px){.eyebrow{font-size:15px;letter-spacing:3px}.eyebrow::before,.eyebrow::after{width:22px}.head h2{font-size:42px}}
-
-  /* ---- v4: handwritten labels (pinterest style) ---- */
-  .eyebrow{font-family:'Caveat',cursive;font-size:40px;letter-spacing:0;text-transform:none;font-weight:600;line-height:1;gap:10px;transform:rotate(-2deg);transform-origin:left;color:var(--clay);padding:8px 0 2px}
-  .eyebrow::before{content:"\2726";width:auto;height:auto;background:none;opacity:.9;font-size:22px;font-family:'DM Sans',sans-serif}
-  .eyebrow::after{content:"";width:60px;height:2px;background:var(--clay);opacity:.45;border-radius:2px}
-  .head h2{margin-top:6px}
-  @media(max-width:600px){.eyebrow{font-size:34px}.eyebrow::after{width:36px}}
-
-  /* ---- v5: real photos in Why cards + balanced centered headings ---- */
+  /* ---- FINAL v8: headings + photos (single clean block) ---- */
   .wart img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-  .head{text-align:center}
-  .eyebrow{display:flex;justify-content:center;font-size:clamp(46px,5.4vw,64px);gap:14px;padding:6px 0 0;transform:rotate(-2deg);transform-origin:center}
-  .eyebrow::before,.eyebrow::after{content:"\2726";width:auto;height:auto;background:none;opacity:.85;font-size:.4em;font-family:'DM Sans',sans-serif;align-self:center}
-  .head h2{font-size:clamp(34px,4.6vw,52px);margin-top:2px}
-  @media(max-width:600px){.eyebrow{font-size:36px;gap:8px}.head h2{font-size:34px}}
-
-  /* ---- v6: big handwritten label on top, smaller heading below, left aligned ---- */
   .head{text-align:left;margin-bottom:48px}
-  .eyebrow{display:block;font-family:'Caveat',cursive;font-weight:700;text-transform:none;letter-spacing:0;color:var(--clay);
-    font-size:clamp(56px,7.4vw,92px);line-height:.95;transform:rotate(-2.5deg);transform-origin:left bottom;padding:0;margin:0 0 6px;gap:0}
-  .eyebrow::before{content:"\2726";display:inline-block;position:static;width:auto;height:auto;background:none;opacity:.9;
-    font-family:'DM Sans',sans-serif;font-size:.36em;margin-right:.35em;vertical-align:.55em}
-  .eyebrow::after{content:"";display:inline-block;width:92px;height:16px;margin-left:16px;vertical-align:-.05em;opacity:.6;
-    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 16'%3E%3Cpath d='M2 9Q12 1 22 9T42 9T62 9T88 8' stroke='%23B57A60' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center/contain}
-  .head h2{font-size:clamp(28px,3.4vw,42px);margin-top:10px;font-weight:500}
-  @media(max-width:600px){
-    .eyebrow{font-size:46px;line-height:1}
-    .eyebrow::after{width:56px;margin-left:10px}
-    .head h2{font-size:28px}
-  }
-
-  /* ---- v7: straight, clean labels ---- */
-  .eyebrow{font-family:'Playfair Display',serif;font-style:italic;font-weight:500;transform:none;
-    font-size:clamp(46px,6vw,76px);line-height:1;letter-spacing:-.5px;margin:0 0 8px}
-  .eyebrow::before{font-style:normal;font-size:.32em;vertical-align:.9em;margin-right:.4em}
-  .eyebrow::after{width:70px;height:2px;margin-left:18px;vertical-align:.3em;opacity:.45;background:var(--clay);border-radius:2px}
-  @media(max-width:600px){.eyebrow{font-size:34px}.eyebrow::after{display:none}}
+  .eyebrow{display:block;font-family:'Playfair Display',serif;font-style:italic;font-weight:500;text-transform:none;
+    letter-spacing:-.5px;color:var(--clay);font-size:clamp(40px,5.4vw,68px);line-height:1.05;margin:0 0 8px;transform:none}
+  .eyebrow::before,.eyebrow::after{content:none}
+  .head h2{font-size:clamp(26px,3vw,36px);font-weight:500;margin-top:0;line-height:1.2}
+  @media(max-width:600px){.eyebrow{font-size:36px}.head h2{font-size:26px}}
 </style>
 </head>
 <body>
